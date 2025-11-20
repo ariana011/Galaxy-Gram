@@ -4,7 +4,7 @@ Submitted by: **Ariana Garcia**
 
 This web app: **A social media webpage about the galaxies and space where users can share there favorite photos!**
 
-Time spent: **13** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
