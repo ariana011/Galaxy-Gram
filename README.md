@@ -70,6 +70,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 
+https://github.com/user-attachments/assets/701c89bd-5aad-48c2-99ac-b3c0de5a4fac
+
 
 GIF created with ...  
 
