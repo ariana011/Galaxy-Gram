@@ -1,0 +1,41 @@
+:root {
+    --bg: #0d0d16;
+    --bg-alt: #131327;
+    --card-bg: rgba(255, 255, 255, 0.08);
+    --card-border: rgba(255, 255, 255, 0.12);
+    --text: #e8e8ff;
+    --accent: #9d7bff;
+    --accent-glow: #b794ff;
+    --accent-blue: #6ab8ff;
+    --glow: 0 0 12px rgba(157, 123, 255, 0.7),
+        0 0 24px rgba(106, 184, 255, 0.4);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #1c1c3c 0%, #0c0c19 50%, #06060f 100%);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: var(--glow);
+}

@@ -1,0 +1,31 @@
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+.controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.controls input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.controls select {
+    padding: 8px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.loading {
+    color: #666;
+}

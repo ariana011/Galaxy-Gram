@@ -1,0 +1,57 @@
+.postpage {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.postcard-large {
+    background: var(--card-bg);
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 0 25px rgba(157, 123, 255, 0.3);
+}
+
+.image-wrap img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(106, 184, 255, 0.35);
+}
+
+.post-actions button,
+.post-actions .btn-link,
+.post-actions .danger {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.post-actions button:hover {
+    background: var(--accent-blue);
+    transform: scale(1.05);
+    box-shadow: var(--glow);
+}
+
+.post-actions .danger {
+    background: #d11;
+}
+
+.post-actions .danger:hover {
+    background: #f33;
+    box-shadow: 0 0 12px rgba(255, 80, 80, 0.5);
+}
+
+.comment {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid var(--card-border);
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
